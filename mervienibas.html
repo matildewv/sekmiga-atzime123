@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>mervienibas</title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <style> 
+            header {background-color: #dcdc00} 
+            body {background-image: url(images/cipari.jpg)}
+            form {font-size: 20px; }
+        </style>
+        <header>
+            <h1>Informācijas daudzuma mērvienības </h1>
+        
+        <form action="/action_page.php">
+            <p> <input type="text" id="gig" name="GB"> GB= <p/> 
+            <p><input value ="Izteikt megabaitos" name="GB" onclick="mmeg.value=GB.value*1000" type="button" > 
+            <input name="mmeg"> MB </p>
+        <p> <input value ="Izteikt mibibaitos" name="GB" onclick="mmib.value=GB.value*953.67" type="button" >
+            <input name="mmib"> MiB </p>
+        </form>
+        </header>
+    </body>
+</html>
